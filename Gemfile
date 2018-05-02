@@ -1,7 +1,11 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
+<<<<<<< HEAD
 ruby '2.4.1'
+=======
+ruby '2.4.0'
+>>>>>>> 64a7348193a0f45b77818b9c97ccf8ac97c1c65b
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.0'
@@ -40,8 +44,15 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
+<<<<<<< HEAD
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'devise'
 gem 'pry-rails'
+=======
+  gem 'devise'
+
+# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+>>>>>>> 64a7348193a0f45b77818b9c97ccf8ac97c1c65b
